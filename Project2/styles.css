@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: bodred-box;
+}
+
+.header-social,
+.end-banner {
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 255, 72);
+
+    display: flex;
+    justify-content: center;
+}
+
+.name,
+.end-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    padding-left: 10px;
+}
+.name-social,
+.end {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+
+    align-items: center;
+}
+
+.social-inst {
+    margin-left: auto;
+}
+
+.image-avatar {
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(172, 232, 240);
+}
+
+.banner-under-avatar {
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 255, 72);
+
+    display: flex;
+    justify-content: center;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    padding-left: 10px;
+}
+
+.main-conteiner {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-me,
+.future-lending {
+    margin: 20px;
+    width: 300px;
+    border: 3px solid rgb(36, 116, 95);
+    border-radius: 8px;
+}
+
