@@ -32,7 +32,6 @@
 
 .Recept-box {
     padding: 20px 0;
-    border: 1px solid red;
     
     display: flex;
     justify-content: space-around;
@@ -43,6 +42,8 @@
     height: 800px;
     padding: 20px;
     border: 5px solid yellow;
+    
+    border-radius: 30px;
 }
 
 .footer {
