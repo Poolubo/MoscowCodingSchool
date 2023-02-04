@@ -8,18 +8,6 @@ html {
     width: 100%;
 }
 
-body {
-    width: 100%;
-    height: 3340px;
-
-    background-image: url(images/evian_origins_logo.png);
-
-    background-position-y: 140px;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
-
 a:link,
 a:visited {
     color: #E50043;
@@ -72,6 +60,10 @@ a:hover {
 }
 
 .hero-block {
+    background-image: url(images/evian_origins_logo.png);
+    background-position-y: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
     height: 1090px;
 
@@ -93,15 +85,6 @@ a:hover {
     color: #E50043;
 }
 
-.main {
-    height: 2300px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    position: relative;
-}
-
 ul {
     list-style-type: none;
 }
@@ -110,20 +93,13 @@ li {
     margin-bottom: 20px;
 }
 
-.about1 {
-    position: absolute;
-    top: 150px;
-    text-align: justify;
-}
-
-.about2 {
-    position: absolute;
-    bottom: 150px;
-}
-
 .textbox {
     width: 1080px;
-    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
     padding: 24px;
 
     font-family: 'Arial';
@@ -138,10 +114,17 @@ li {
 
 }
 
+.bottle-container {
+    width: 1080px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer {
     width: 100%;
-    height: 140px;
-    padding-left: 50px;
+    padding: 50px;
 
     display: flex;
     background-color:#F8BFC7;
