@@ -10,29 +10,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 25px;
+    padding: 100px 0;
 }
 
 .content {
-    margin: 10px;
-    
-    width: 100%;
-
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
     text-align: left;
-    flex-direction: column;
     text-indent: 30px;
 
     border: 1px solid #000000;
 }
 
 .illustration img {
-
+    object-fit: cover;
     margin-bottom: 15px;
     width: 100%;
     display: block;
