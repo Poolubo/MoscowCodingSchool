@@ -21,7 +21,8 @@ a:hover {
     text-decoration: underline;
 }
 
-.header {
+.header,
+.ender {
     width: 100%;
     padding: 40px;
 
@@ -30,6 +31,7 @@ a:hover {
     align-items: center;
 
     background: #F8BFC7;
+    font-size: 23px;
 }
 
 
@@ -96,6 +98,7 @@ a:hover {
     flex-wrap: wrap;
 
     border-radius: 5px;
+    color: #ffffff;
 }
 
 .form-row input[type='text'],
@@ -118,17 +121,69 @@ a:hover {
 
     justify-content: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     border: 5px solid black;
 }
 
 .content-box {
     padding: 40px;
-    margin-top: 15px;
+    margin-top: 50px;
     margin-right: 900px;
     width: 300px;
     height: 500px;
     border: 1px solid white;
     border-radius: 30px;
     background-color: #F8BFC7;
+
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    padding: 100px;
+}
+
+.button button {
+    box-sizing: border-box;
+    padding: 40px;
+    margin-top: 15px;
+    margin-right: 900px;
+
+    background: #FEB700;
+    border: 3px solid #FFFFFF;
+    border-radius: 60px;
+
+    font-family: 'Helvetica';
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.button button:hover {
+    background-color: #c28b00;
+}
+
+.button button:active {
+    background-color: #8e660086;
+}
+
+.text {
+margin-top: 150px;
+font-family: 'Helvetica';
+font-size: 50px;
+line-height: 57px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FEB700;
+}
+
+.ender {
+    color: white;
 }
