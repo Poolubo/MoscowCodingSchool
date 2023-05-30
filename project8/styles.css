@@ -139,21 +139,18 @@ a:hover {
 .content-box {
     padding: 40px;
     margin-top: 50px;
-    margin-right: 900px;
+    margin-right: 60%;
     width: 300px;
     border: 1px solid white;
     border-radius: 30px;
 
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
 
     border: 5px solid rgb(166, 0, 255);
 }
 
 .button button {
     box-sizing: border-box;
-    padding: 40px;
+    padding: 5px;
     margin-top: 15px;
     background: #FEB700;
     border: 3px solid #FFFFFF;
